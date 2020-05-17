@@ -1,6 +1,6 @@
 # Design your First Build Pipeline
 
-## Create CD Pipline
+## Create CI Pipeline
 - Open Your Project on VS Code
 - Run in Terminal `git checkout dev`
 - Create file by name **_.gitlab-ci.yaml_**
