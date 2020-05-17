@@ -79,4 +79,4 @@
 - Enter Title
 - In Assignee - Click Assign to me
 - Merge Options - Uncheck Delete Source Branch
-- Click ***Submit Merge Request*
+- Click ***Submit Merge Request**
