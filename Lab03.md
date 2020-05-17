@@ -39,14 +39,14 @@
           script:
             - test -f publish/car.txt
     ```
-- Add **stages** key to both build job so that both job executes in sequence. You snippet should look like this:
+- Add **stage** key to both build job so that both job executes in sequence. You snippet should look like this:
   ```yaml
     stages:
      - build
      - test
     
     build_the_car:
-      stages: test
+      stage: build
       script:
         - mkdir build
         - cd build
