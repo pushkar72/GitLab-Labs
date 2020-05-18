@@ -35,7 +35,7 @@
 - Login to GitLab Account
 - Create New Project
   
-    ![Screenshot1](/images./L1-1.jpg)
+    ![Screenshot1](./images/L1-1.jpg)
 - Enter Details
   
     ![Screenshot2](./images/L1-2.jpg)
