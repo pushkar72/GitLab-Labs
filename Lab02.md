@@ -14,7 +14,7 @@
 - Open Terminal at Project Location
 - Check Existing Branch `git branch`
 - Create New Branch `git branch dev`
-- Set **Dev** as active Branch `git checkout dev'
+- Set **Dev** as active Branch `git checkout dev`
 - ---
 - #### Make Changes to Active Branch
    1. Goto Project > Views > Home > Index.cshtml
