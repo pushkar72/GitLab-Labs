@@ -1,5 +1,14 @@
 # Working with Branches
 
+## Add GitIgnore File
+
+- GoTo VSCode > Extension
+- Search _GitIgnore Templates_
+- Install Gitignore Templates By Hasan Ali
+- After Installation, Press F1 Type _Gitignore file_ and select **Generate Gitignore file**
+- Then Select VisualStudio from List of Options
+
+
 ## Create New Branch Dev based on Master
 
 - Open Terminal at Project Location
