@@ -68,7 +68,7 @@
 - Add below code snippet at the end `build_the_car` job
     ```yaml
     artifacts:
-    paths:
-      - build/
+      paths:
+        - build/
     ```
 - Push Changes  to Repository and Check Pipeline Execution

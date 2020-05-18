@@ -7,6 +7,7 @@
 - Create a Folder
 - Open Command  Prompt at your path
 - Run `dotnet new mvc --name GitLabWebApp --no-https`
+- Run `cd GitLabWebApp`
 - Run `dotnet new sln --name GitLab`
 - RUn `dotnet sln add GitLabWebApp.csproj Gitlab.sln`
 
