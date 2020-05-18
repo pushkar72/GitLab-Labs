@@ -35,8 +35,8 @@
 ### Install & Start Runner
 
 - ENter following commands in Terminal
-  - >> `gitab-runner.exe install`
-  - >> `gitlab-runner.exe start`
+  -  `gitab-runner.exe install`
+  -  `gitlab-runner.exe start`
     
   
 

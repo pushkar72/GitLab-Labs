@@ -3,7 +3,7 @@
 ## Create CI Pipeline
 - Open Your Project on VS Code
 - Run in Terminal `git checkout dev`
-- Create file by name **_.gitlab-ci.yaml_**
+- Create file by name **_.gitlab-ci.yml_**
 - Add a stage `build_the_car`
   ```yaml
   build_the_car:
