@@ -21,7 +21,9 @@
 ```bash
      git config --global user.name <Enter Name>
      git config --global user.email <Enter Email>
- ```
+
+``` 
+ Note: _Use same email used to register on GitLab_       
 - Stage all Changes `git add .`
 - Commit Changes `git commit -m "Project Initialized"`
 
