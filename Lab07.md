@@ -65,3 +65,6 @@
 - Add `sonar-project.properties` file in your project in root location and code snippet shown as in Sonar Platform
 
      ![Screenshot](images/L7-13.jpg)
+
+
+- Add **Stage** Info in Sonar Job and code checkin as observe pipeline execution and check sonar analysis report in SonarCloud Platform
