@@ -10,16 +10,7 @@
 - Open _**Command Prompt** as administrator_
 - Navigate to Documents > Gitlab-Runner folder
   
-### Generate Access Token
 
-- GoTo Gitlab > Settings > Access Token
-- Enter values
-  
-  ![Screenshot1](./images/L4-1.jpg)
-
-- ![Screenshot1](./images/L4-2.jpg)
-  
-- **Copy the Token Value shown**
 ### Register Runner Agent
 
 - Run commands in Terminal
