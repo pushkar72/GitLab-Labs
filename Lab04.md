@@ -68,3 +68,30 @@
   
   > sudo gitlab-runner start
   ```
+
+- Register Runner
+  ```bash
+  >> sudo gitlab-runner register
+  ```
+- Please enter the gitlab-ci coordinator URL (e.g. https://gitlab.com )
+    ```bash
+    https://gitlab.com
+    ```
+- Goto GitLab Project > Settings > CI/CD > Runners
+- Copy Token Value
+  
+    ![Screenshot1](./images/L4-3.jpg)
+
+- Go back to Terminal and enter token when asked _"Enter the token you obtained to register the Runner:"_
+- Enter the tags associated with the Runner, you can change this later in GitLab’s UI
+  ```bash
+  linux,docker
+  ```
+- Enter the Runner executor:
+  ```bash
+  docker
+  ```
+- If you chose Docker as your executor, you’ll be asked for the default image to be used for projects that do not define one in `.gitlab-ci.yml`:
+  ```bash
+  alpine:latest
+  ```
