@@ -55,3 +55,13 @@
 
 ---
 ## Task 3 : Configure Gitlab and Project
+
+- After you have configured Environment variables as directed by Instruction on Sonar Platform
+- Select Other and copy paste the code snippet shown in your CI Pipeline file after the build job and click continue
+
+     ![Screenshot](images/L7-12.jpg)
+
+
+- Add `sonar-project.properties` file in your project in root location and code snippet shown as in Sonar Platform
+
+     ![Screenshot](images/L7-13.jpg)
