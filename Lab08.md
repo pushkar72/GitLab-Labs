@@ -31,7 +31,7 @@
 
 - Note Token Value
 
-## Task 3 : Add Docker Build Jobs in Pipeline
+## Task 4 : Add Docker Build Jobs in Pipeline
 
 - Add below code snippet in `.gitlab-ci.yml`
   ```yaml
