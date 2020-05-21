@@ -22,6 +22,7 @@
 - Goto GitLabWebApp Project 
 - Open Project in VSCode
 - Open `.gitlab-ci.yml`
+- Add a new stage `triggerdemo` in stages section
 - Add a new Job
   ```yaml
   triggerjob:
