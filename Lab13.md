@@ -4,3 +4,6 @@
   
 - Navigate to `https://pastebin.com/8p4ijp5r`
 
+- Get CA Certificate Value
+- Get Secret Token Value
+
