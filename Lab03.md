@@ -37,7 +37,7 @@
     ```yaml
         test_the_car:
           script:
-            - test -f publish/car.txt
+            - test -f build/car.txt
     ```
 - Add **stage** key to both build job so that both job executes in sequence. You snippet should look like this:
   ```yaml
