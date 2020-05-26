@@ -62,6 +62,7 @@
 
 - Register Runner
   ```bash
+  >> sudo su -
   >> sudo gitlab-runner register
   ```
 - Please enter the gitlab-ci coordinator URL (e.g. https://gitlab.com )
