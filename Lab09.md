@@ -10,4 +10,10 @@
   ```
 - Goto Azure Portal > App Services > Select App Service created in previous step
 - Goto **Deployment Center** in App Service
-- 
+- In Source Control _Select External_
+- In Build Provider _Select Kudu App Service Build_
+- In Repository, fill Fields
+  
+  ![sc](images/L9-1.jpg)
+
+- Click Continue
