@@ -11,6 +11,9 @@
 - Add Variable **USER_TOKEN** value _TokenValue_ from step 3
 ## Task 2 : Add Yaml in Lab12.2
 
+- Create `deployment.yaml` file at root folder in your project
+- Copy Paste the YAML Code from Lab 12.2
+
 ## Task 3: Add Kube Job
 
 - Add below code snippet in Pipeline file
