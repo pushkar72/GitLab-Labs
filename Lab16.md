@@ -6,8 +6,9 @@
 - Get API URL
 - Get Token
 - GoTo CI/CD Settings > Variables
-- Add Variable **SERVER** value APIURL from step 2
-
+- Add Variable **CERTIFICATE_AUTHORITY_DATA** value _Base64 Cert Value_ from step 1
+- Add Variable **SERVER** value _APIURL_ from step 2
+- Add Variable **USER_TOKEN** value _TokenValue_ from step 3
 ## Task 2 : Add Yaml in Lab12.2
 
 ## Task 3: Add Kube Job
