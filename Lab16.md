@@ -19,14 +19,14 @@
 - Add below code snippet in Pipeline file
   ```yaml
   deploycontainer:
-  stage: deploytokube
-  image: dtzar/helm-kubectl
-  script:
-    - kubectl config set-cluster k8s --server="${SERVER}"
-    - kubectl config set clusters.k8s.certificate-authority-data ${CERTIFICATE_AUTHORITY_DATA}
-    - kubectl config set-credentials gitlab --token="${USER_TOKEN}"
-    - kubectl config set-context default --cluster=k8s --user=gitlab
-    - kubectl config use-context default
-    - sed -i "s/<VERSION>/${CI_COMMIT_SHORT_SHA}/g" deployment.yaml
-    - kubectl apply -f deployment.yaml
+    stage: deploytokube
+    image: dtzar/helm-kubectl
+    script:
+      - kubectl config set-cluster k8s --server="${SERVER}"
+      - kubectl config set clusters.k8s.certificate-authority-data ${CERTIFICATE_AUTHORITY_DATA}
+      - kubectl config set-credentials gitlab --token="${USER_TOKEN}"
+      - kubectl config set-context default --cluster=k8s --user=gitlab
+      - kubectl config use-context default
+      - sed -i "s/<VERSION>/${CI_COMMIT_SHORT_SHA}/g" deployment.yaml
+      - kubectl apply -f deployment.yaml
   ```
