@@ -20,7 +20,7 @@
 - Enter Token Value copied from previous step
 - Description Add `_my-runner-agent_`
 - Tags : `iis,windows,production`
-- Enter `powershell`
+- Executor `shell`
 
 
 ### Install & Start Runner
