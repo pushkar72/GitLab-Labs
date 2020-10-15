@@ -36,11 +36,11 @@
 - Add below code snippet in `.gitlab-ci.yml`
   ```yaml
   createdockerimage:
-  stage: dockerbuild
-  image: docker:stable
-  services:
-   - docker:dind
-  script:
+    stage: dockerbuild
+    image: docker:stable
+    services:
+     - docker:dind
+    script:
       - export DOCKER_HOST=tcp://docker:2375/
       - docker login -u dockertoken -p <Enter token value here> registry.gitlab.com
       - docker build -t registry.gitlab.com/pushkarjethwa/gitlabwebapp .
