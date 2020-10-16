@@ -1,6 +1,6 @@
 # Deploy To Kubernetes wit CD Job
 
-## Task 1 : Get Configurations of Kubernetes CLuster
+## (SKIP THIS) Task 1 : Get Configurations of Kubernetes CLuster
 
 - Get CA Base64 value for
 - Get API URL
@@ -22,7 +22,7 @@
     stage: deploytokube
     image: dtzar/helm-kubectl
     script:
-      - kubectl config set-context default --cluster=k8s --user=gitlab
+      - kubectl config set-context default --cluster=k8s --user=gitlab-admin
       - kubectl config use-context default
       - sed -i "s/<VERSION>/${CI_COMMIT_SHORT_SHA}/g" deployment.yaml
       - kubectl apply -f deployment.yaml
