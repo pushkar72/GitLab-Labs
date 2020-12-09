@@ -29,6 +29,7 @@
 - Add below yaml snippet after stage section
   ```yaml
   include:
+  - template: SAST.gitlab-ci.yml
   - template: License-Scanning.gitlab-ci.yml
   - template: Dependency-Scanning.gitlab-ci.yml
   ```
