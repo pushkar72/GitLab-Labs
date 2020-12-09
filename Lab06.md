@@ -27,5 +27,6 @@
   include:
   - template: Security/License-Scanning.gitlab-ci.yml
   ```
+- Perform Commit & Push
 
 
