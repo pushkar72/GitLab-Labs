@@ -19,6 +19,10 @@
 
 - Rename file to License-Scanning.gitlab-ci.yml
 
+- Visit `https://gitlab.com/gitlab-org/gitlab/blob/master/lib/gitlab/ci/templates/Security/Dependency-Scanning.gitlab-ci.yml`
+- Download the FIle & Add to your project at root location
+- Rename file to Dependency-Scanning.gitlab-ci.yml
+
 ## Make changes in `.gitlab-ci.yml` CI File
 
 - Open `.gitlab-ci.yml` file in Project 
