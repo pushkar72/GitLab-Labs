@@ -15,6 +15,7 @@
 - Visit `https://gitlab.com/gitlab-org/gitlab/blob/master/lib/gitlab/ci/templates/Security/License-Scanning.gitlab-ci.yml`
 - Download the FIle & Add to your project at root location
     ![Screenshot1](./images/L6-1.jpg)
+- Rename file to License-Scanning.gitlab-ci.yml
 
 ## Make changes in `.gitlab-ci.yml` CI File
 
