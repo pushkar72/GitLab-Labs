@@ -25,7 +25,8 @@
 - Add below yaml snippet after stage section
   ```yaml
   include:
-  - template: Security/License-Scanning.gitlab-ci.yml
+  - template: License-Scanning.gitlab-ci.yml
+  - template: Dependency-Scanning.gitlab-ci.yml
   ```
 - Perform Commit & Push
 
