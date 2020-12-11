@@ -22,9 +22,6 @@
     stage: deploytokube
     image: dtzar/helm-kubectl
     script:
-      - kubectl config set-context default --cluster=k8s --user=gitlab-admin
-      - kubectl config use-context default
-      - sed -i "s/<VERSION>/${CI_COMMIT_SHORT_SHA}/g" deployment.yaml
       - kubectl apply -f deployment.yaml
       - kubectl expose deployment rss-site --type=LoadBalancer --name=gitlabappservice
   ```
