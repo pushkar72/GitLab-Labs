@@ -21,6 +21,8 @@
   deploycontainer:
     stage: deploytokube
     image: dtzar/helm-kubectl
+    environment:
+      name: azure
     script:
       - kubectl apply -f deployment.yaml
       - kubectl expose deployment rss-site --type=LoadBalancer --name=gitlabappservice
